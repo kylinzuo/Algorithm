@@ -113,37 +113,3 @@ function list(){
 
 /*== end 定义一个列表 ===========================================================================*/
 
-
-
-
-
-
-
-var names = new list();
-names.append("hello");
-names.append("world");
-names.append("html5");
-names.append("css3");
-names.append("javascript");
-names.append("jquery");
-names.append("angularJS");
-names.append("vue.js");
-console.log(names.toString());
-names.front();
-console.log(names.getElement());
-names.next();
-console.log(names.getElement());
-names.next();
-names.next();
-console.log(names.getElement());
-console.log("");
-console.log("");
-console.log("");
-for(names.front(); names.hasNext(); names.next()){
-	console.log(names.getElement());
-}
-
-
-
-
-
