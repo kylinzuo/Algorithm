@@ -1,3 +1,3 @@
 # Algorithm
-JavaScript Algorithm and structure
-test git & github
+Test git & github JavaScript Algorithm and structure
+
