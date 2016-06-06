@@ -87,7 +87,7 @@ function hasNext(){
 function hasPrev(){
 	return this.pos >=0;
 }
-//== 列表结构函数 ==
+//== 列表结构函数 ===================
 function list(){
 	this.listSize = 0;
 	this.pos = 0;
